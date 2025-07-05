@@ -88,7 +88,106 @@ order by Total_Sales
 [SQL 3.jpg](https://drive.google.com/file/d/1CldAL9KcXWOdu-sl-DYHeNlOX0tQMS4l/view?usp=drive_link)
 
 
+``` SQL
+select top 10 Customer_Name, sum (Sales) as Total_Sales
+from [dbo].[Project KMS]
+Group by Customer_Name
+order by Total_Sales asc
 
+```
+
+[SQL 4.jpg](https://drive.google.com/file/d/1jYi8uO3Fhy5d3b4nlOsH8Nv9hyOIrdrX/view?usp=drive_link)
+
+```  SQL
+select top 1 Ship_Mode, sum (Shipping_Cost) as Total_Cost
+from [dbo].[Project KMS]
+group by Ship_Mode
+order by Total_Cost desc
+
+```
+
+[SQL 5.jpg](https://drive.google.com/file/d/1RuQprzUCn1lgzy27DkT-pWkZpFlVZ9k6/view?usp=drive_link)
+
+
+```  SQL
+ select top 1 Customer_Name,Product_Category,Product_Sub_Category,sum (Sales) as Total_Spent
+ from [dbo].[Project KMS]
+ group by Customer_Name,Product_Category,Product_Sub_Category
+ Order by Total_Spent desc
+
+```
+
+[SQL 6.jpg](https://drive.google.com/file/d/1yy8TqASmy4cmBYNVMnNnu6fa3r0mVWUQ/view?usp=drive_link)
+
+
+```  SQL
+ select top 1 Customer_Name, sum (Sales) as Total_sales
+ from [dbo].[Project KMS]
+ where Customer_Segment = 'Small Business'
+ group by Customer_Name
+ order by Total_sales desc
+
+```
+
+[SQL 7.jpg](https://drive.google.com/file/d/10sWtPcpYT0PFCq62L0W55r4fm-8GE7S_/view?usp=drive_link)
+
+
+```  SQL
+  select top 1 C.Customer_Name,count (c.Order_ID) as Order_count
+ from [dbo].[Project KMS]as C
+join 
+	[dbo].[Order_Status]as O
+on C.Order_ID = O.Order_ID
+where C.Customer_Segment = 'Corporate' and year (C.Order_Date) between 2009 and 2012
+group by C.Customer_Name
+order by Order_count desc
+
+```
+
+[SQL 8.jpg](https://drive.google.com/file/d/1MqrQpqTldtR-mq6yqRgzRTnJJ0zaEXtT/view?usp=drive_link)
+
+```  SQL
+select top 1 Customer_Name, sum (Profit) as Total_Profit
+from [dbo].[Project KMS]
+group by Customer_Name
+order by Total_Profit
+
+```
+
+[SQL 9.jpg](https://drive.google.com/file/d/1hOu69-Fc-7CbSWs22gEgAUAjXyuLzj9b/view?usp=drive_link)
+
+```  SQL
+select C.Customer_Name, C.Customer_Segment
+ from [dbo].[Project KMS]as C
+join 
+	[dbo].[Order_Status]as O
+on C.Order_ID = O.Order_ID
+where (O.Status) = 'Returned'
+
+select top 10 C.Customer_Name, C.Customer_Segment
+ from [dbo].[Project KMS]as C
+join 
+	[dbo].[Order_Status]as O
+on C.Order_ID = O.Order_ID
+where (O.Status) = 'Returned'
+
+```
+
+[SQL 10.jpg](https://drive.google.com/file/d/1-kcZvY1FWrm2vnPTdAVWNS-mcSTHDdFI/view?usp=drive_link)
+
+```  SQL
+select 
+	[Order_Priority],
+	[Ship_mode],count (Order_ID) as Order_Count,
+	round (sum (Sales-profit),2) as Estimated_shipping_cost, avg (datediff(day,[Order_Date],[Ship_Date])) as avg_ship_days
+from [dbo].[Project KMS]
+group by [Order_Priority], [Ship_Mode]
+order by [Order_Priority], [Ship_Mode] desc
+
+```
+[SQL 11.jpg](https://drive.google.com/file/d/1yEpN_b4ElHoPnbCUGOh1VzDVCk9GQOS-/view?usp=drive_link)
+
+## Business Insights
 
 
 # About Me
