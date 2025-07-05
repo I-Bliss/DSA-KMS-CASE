@@ -51,6 +51,13 @@ purchase?
 
 ### SQL Queries
 
+1. ```
+   select  Top 1 Product_Category, sum (Sales) as Total_Sales
+from [dbo].[Project KMS]
+group by Product_Category
+order by Total_Sales desc 
+```
+
 
 # About Me
 
