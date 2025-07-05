@@ -45,7 +45,11 @@ purchase?
 
 ## Analysis
 
+[Case 1](https://drive.google.com/drive/folders/16YNyBzrZp_kKI-44dbIFc2P6AiYvxZFQ?usp=drive_link)
 
+[Case 2](https://drive.google.com/drive/folders/139Joa5ktCntJUJWMMZFVHXVjkl7tZsq6?usp=drive_link)
+
+### SQL Queries
 
 
 # About Me
