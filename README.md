@@ -59,9 +59,33 @@ order by Total_Sales desc
 
 ```
 
+[SQL 1.jpg](https://drive.google.com/file/d/1Nc7YxO8lQAWm0wUZEk-URVapcC6OraEe/view?usp=drive_link)
 
+```  SQL
+select top 3 Region, sum (Sales) as Total_Sales
+from [dbo].[Project KMS]
+group by Region
+order by Total_Sales desc
 
+select top 3 Region, sum (Sales) as Total_Sales
+from [dbo].[Project KMS]
+group by Region
+order by Total_Sales asc
 
+```
+
+[SQL 2.jpg](https://drive.google.com/file/d/1OzIuOfztdJ-yUEkpm_FIhob1vyLPGwAm/view?usp=drive_link)
+
+```  SQL
+select Product_Sub_Category, sum (Sales) as Total_Sales
+from [dbo].[Project KMS]
+where Region = 'Ontario' and Product_Sub_Category = 'Appliances'  
+group by Product_Sub_Category
+order by Total_Sales
+
+```
+
+[SQL 3.jpg](https://drive.google.com/file/d/1CldAL9KcXWOdu-sl-DYHeNlOX0tQMS4l/view?usp=drive_link)
 
 
 
