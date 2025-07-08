@@ -188,7 +188,7 @@ order by [Order_Priority], [Ship_Mode] desc
 [SQL 11.jpg](https://drive.google.com/file/d/1yEpN_b4ElHoPnbCUGOh1VzDVCk9GQOS-/view?usp=drive_link)
 
 ## Business Insights
-- Technology is the top selling product with revenue worth in five figures.
+- Technology is the top selling product with revenue worth in five figures. And the most valuable Customer was Emily phan with an high purchase in Technological Products
 
 - In terms of regions with highest and least sales;
   1. 3 regions are West, Ontario, Prarie
@@ -203,7 +203,7 @@ To increase Revenue for Customers with the least Revenue
 
 - Upselling and cross-selling: Identify opportunities to upsell or cross-sell products or services to customers who have already demonstrated a willingness to spend, such as Chris McAfee (350.18) and Eric Murdock (343.33).
 
-
+Delivery truck was
 
 
 # About Me
