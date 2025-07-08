@@ -194,8 +194,16 @@ order by [Order_Priority], [Ship_Mode] desc
   1. 3 regions are West, Ontario, Prarie
   2. the least 3 is Nunavut, Northwest Territories, Yukon. With The total sales of Appliances in Ontario worth seven figures.
 
-Customers with the least Revenue jeremy Farry	85.7200000000, Natalie DeCherney	125.9000000000,Nicole Fjeld	153.0300000000,Katrina Edelman	180.7600000000,Dorothy Dickinson	198.0800000000
---,Christine Kargatis	293.2200000000,Eric Murdock	343.3280000000,Chris McAfee	350.1800000000,Rick Huthwaite	415.8200000000,Mark Hamilton	450.9900000000
+To increase Revenue for Customers with the least Revenue 
+- Target low-revenue customers: Focus on customers with low revenue, such as Jeremy Farry (85.72) and Natalie DeCherney (125.90), to increase their spending.
+
+- Analyze customer behavior: Investigate the purchasing habits and preferences of low-revenue customers to identify opportunities to upsell or cross-sell.
+
+- Personalized marketing: Develop targeted marketing campaigns to high-potential customers, such as those with revenue between 100-200 (e.g., Natalie DeCherney, Nicole Fjeld, Katrina Edelman).
+
+- Upselling and cross-selling: Identify opportunities to upsell or cross-sell products or services to customers who have already demonstrated a willingness to spend, such as Chris McAfee (350.18) and Eric Murdock (343.33).
+
+
 
 
 # About Me
