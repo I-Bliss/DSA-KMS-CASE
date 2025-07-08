@@ -209,6 +209,13 @@ Erin Creighton placed the most orders as a Corporate customer, a total of 10 ord
 
 Dennis Kane is the Small Business Owner having the Highest sales with a total sales of 75,967
 
+Customers that Returned items initially was over 800 rows after the query was executed but using reduced it to top 10, they are; are Dorothy Badders in Home office Segment, Grant Carroll in Corporate Segment, Michelle  Lonsdale in Home Office and Carlos Soltero in Small Business Segment
+
+Based on Order Priority and Ship Mode, KMS did not appropriately spend shipping cost but it's understandable if they use the most expensive Ship mode ; Express Air, when the order priority is Critical but why use it wholesomely when the Order Priority is Low
+
+- Also, it was noticed that Regular Air and Express Air was the most used the most based on Order Priority. Hence, KMS was not economical with spending on Ship Mode at all.
+
+
 # About Me
 
 ILUPEJU BLESSING TAIWO
@@ -216,6 +223,7 @@ ILUPEJU BLESSING TAIWO
 B.Sc in Biological Science (Pure and Applied Zoology) | Data Enthusiast| Creative Writer
 
 I'm detailed oriented individual with a passion to uncover hidden trends and patterns that are predominately overlooked. Proficient in Data Analysis, Visualization and Reporting.
+
 
 # Contact
 
