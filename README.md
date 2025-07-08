@@ -188,7 +188,12 @@ order by [Order_Priority], [Ship_Mode] desc
 [SQL 11.jpg](https://drive.google.com/file/d/1yEpN_b4ElHoPnbCUGOh1VzDVCk9GQOS-/view?usp=drive_link)
 
 ## Business Insights
-The product category with the highest is technology with 59848.1820000000, with the top 3 regions in terms of Sales is West, Ontario, Prarie while bottom 3 is Nunavut, Northwest Territories, Yukon. The total sales of Appliances in Ontario is 202346.8400000000.
+- Technology is the top selling product with revenue worth in five figures.
+
+- In terms of regions with highest and least sales;
+  1. 3 regions are West, Ontario, Prarie
+  2. the least 3 is Nunavut, Northwest Territories, Yukon. With The total sales of Appliances in Ontario worth seven figures.
+
 Customers with the least Revenue jeremy Farry	85.7200000000, Natalie DeCherney	125.9000000000,Nicole Fjeld	153.0300000000,Katrina Edelman	180.7600000000,Dorothy Dickinson	198.0800000000
 --,Christine Kargatis	293.2200000000,Eric Murdock	343.3280000000,Chris McAfee	350.1800000000,Rick Huthwaite	415.8200000000,Mark Hamilton	450.9900000000
 
