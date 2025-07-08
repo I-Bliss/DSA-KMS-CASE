@@ -3,7 +3,7 @@ This repository contains SQL queries for analysis of KMS Case Study that demostr
 
 ## 🏗 Project Topic: Kultra Mega Store Sales Analysis
 
-## Project Overview
+## 💠 Project Overview
 
 Client Name: Kultra Mega Stores
 
@@ -11,7 +11,7 @@ Role: Business Intelligence Analyst
 
 Tool Used: Structured Query Language (SQL)
 
-## Data Source Description
+## 📚 Data Source Description
 
 Source:Excel file containing order data from 2009 to 2012
 
@@ -25,7 +25,7 @@ Order ID, Order Date, Ship Mode, Region, Profit, Shipping Cost, Product Category
 
 This project was carried out to analyze orders from 2009 to 2012 and present key insights and findings based on case scenarios. With its customer base that includes individual consumers, small businesses (retail), and large corporate clients (wholesale) across Lagos, Nigeria, inorder to monitor the growth of the business in terms of sales, profit, product improvement, marketing strategies, and customer engagement. 
 
-## Analytical Tasks and Solution
+## ✅️ Analytical Tasks and Solution
 - Case 1
 1. Which product category had the highest sales
 2. What are the Top 3 and Bottom 3 regions in terms of sales
@@ -43,13 +43,13 @@ purchase?
 10. Which customer returned items, and what segment do they belong to? 
 11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer 
 
-## Analysis
+## 📊 Analysis
 
 [Case 1](https://drive.google.com/drive/folders/16YNyBzrZp_kKI-44dbIFc2P6AiYvxZFQ?usp=drive_link)
 
 [Case 2](https://drive.google.com/drive/folders/139Joa5ktCntJUJWMMZFVHXVjkl7tZsq6?usp=drive_link)
 
-### SQL Queries
+### 🗃 SQL Queries
 
  ```  SQL
    select  Top 1 Product_Category, sum (Sales) as Total_Sales
@@ -187,7 +187,7 @@ order by [Order_Priority], [Ship_Mode] desc
 ```
 [SQL 11.jpg](https://drive.google.com/file/d/1yEpN_b4ElHoPnbCUGOh1VzDVCk9GQOS-/view?usp=drive_link)
 
-## Business Insights
+## 📉📍 Business Insights
 - Technology is the top selling product with revenue worth in five figures. And the most valuable Customer was Emily phan with an high purchase in Technological Products
 
 - In terms of regions with highest and least sales;
@@ -216,7 +216,7 @@ Based on Order Priority and Ship Mode, KMS did not appropriately spend shipping 
 - Also, it was noticed that Regular Air and Express Air was the most used the most based on Order Priority. Hence, KMS was not economical with spending on Ship Mode at all.
 
 
-# About Me
+# 👩‍💻  About Me
 
 ILUPEJU BLESSING TAIWO
 
@@ -225,7 +225,7 @@ B.Sc in Biological Science (Pure and Applied Zoology) | Data Enthusiast| Creativ
 I'm detailed oriented individual with a passion to uncover hidden trends and patterns that are predominately overlooked. Proficient in Data Analysis, Visualization and Reporting.
 
 
-# Contact
+# ☎️ Contact
 
 If you found this engaging and insightful, feel free to pull or use it for learning
 
