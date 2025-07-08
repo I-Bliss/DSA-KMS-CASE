@@ -203,7 +203,10 @@ To increase Revenue for Customers with the least Revenue
 
 - Upselling and cross-selling: Identify opportunities to upsell or cross-sell products or services to customers who have already demonstrated a willingness to spend, such as Chris McAfee (350.18) and Eric Murdock (343.33).
 
-Delivery truck was
+KMS spent more on Delivery truck with a total cost of over 51,000
+
+Erin Creighton placed the most orders as a Corporate customer, a total of 10 orders with the year 2009 and 2012
+
 
 
 # About Me
