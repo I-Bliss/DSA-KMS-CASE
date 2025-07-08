@@ -207,7 +207,7 @@ KMS spent more on Delivery truck with a total cost of over 51,000
 
 Erin Creighton placed the most orders as a Corporate customer, a total of 10 orders with the year 2009 and 2012
 
-
+Dennis Kane is the Small Business Owner having the Highest sales with a total sales of 75,967
 
 # About Me
 
