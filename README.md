@@ -21,7 +21,7 @@ With each row representing sistinct characters peculiar to it. Each field Includ
 
 Order ID, Order Date, Ship Mode, Region, Profit, Shipping Cost, Product Category, Product Base Margin etc.
 
-## Objectives
+## 🧮 Objectives
 
 This project was carried out to analyze orders from 2009 to 2012 and present key insights and findings based on case scenarios. With its customer base that includes individual consumers, small businesses (retail), and large corporate clients (wholesale) across Lagos, Nigeria, inorder to monitor the growth of the business in terms of sales, profit, product improvement, marketing strategies, and customer engagement. 
 
