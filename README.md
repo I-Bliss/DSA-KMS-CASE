@@ -58,8 +58,7 @@ group by Product_Category
 order by Total_Sales desc 
 
 ```
-
-[SQL 1.jpg](https://drive.google.com/file/d/1Nc7YxO8lQAWm0wUZEk-URVapcC6OraEe/view?usp=drive_link)
+![SQL 1](https://github.com/user-attachments/assets/30372953-c13b-4752-ad6c-0763551599b0)
 
 ```  SQL
 select top 3 Region, sum (Sales) as Total_Sales
@@ -73,8 +72,7 @@ group by Region
 order by Total_Sales asc
 
 ```
-
-[SQL 2.jpg](https://drive.google.com/file/d/1OzIuOfztdJ-yUEkpm_FIhob1vyLPGwAm/view?usp=drive_link)
+![SQL 2](https://github.com/user-attachments/assets/519a937c-e19a-4314-8cd2-bcd93d89cb67)
 
 ```  SQL
 select Product_Sub_Category, sum (Sales) as Total_Sales
@@ -84,9 +82,7 @@ group by Product_Sub_Category
 order by Total_Sales
 
 ```
-
-[SQL 3.jpg](https://drive.google.com/file/d/1CldAL9KcXWOdu-sl-DYHeNlOX0tQMS4l/view?usp=drive_link)
-
+![SQL 3](https://github.com/user-attachments/assets/14a751b8-6c5d-4f54-8d97-f09d86b6c211)
 
 ``` SQL
 select top 10 Customer_Name, sum (Sales) as Total_Sales
@@ -95,8 +91,8 @@ Group by Customer_Name
 order by Total_Sales asc
 
 ```
+![SQL 4](https://github.com/user-attachments/assets/aac3f939-251e-4977-8696-4c47aa2a5081)
 
-[SQL 4.jpg](https://drive.google.com/file/d/1jYi8uO3Fhy5d3b4nlOsH8Nv9hyOIrdrX/view?usp=drive_link)
 
 ```  SQL
 select top 1 Ship_Mode, sum (Shipping_Cost) as Total_Cost
@@ -105,8 +101,7 @@ group by Ship_Mode
 order by Total_Cost desc
 
 ```
-
-[SQL 5.jpg](https://drive.google.com/file/d/1RuQprzUCn1lgzy27DkT-pWkZpFlVZ9k6/view?usp=drive_link)
+![SQL 5](https://github.com/user-attachments/assets/b98d3add-1065-4cde-86cc-ce19c650d00e)
 
 
 ```  SQL
@@ -117,7 +112,7 @@ order by Total_Cost desc
 
 ```
 
-[SQL 6.jpg](https://drive.google.com/file/d/1yy8TqASmy4cmBYNVMnNnu6fa3r0mVWUQ/view?usp=drive_link)
+![SQL 6](https://github.com/user-attachments/assets/4b68d0bc-287e-4150-934b-c45113db846c)
 
 
 ```  SQL
@@ -129,7 +124,7 @@ order by Total_Cost desc
 
 ```
 
-[SQL 7.jpg](https://drive.google.com/file/d/10sWtPcpYT0PFCq62L0W55r4fm-8GE7S_/view?usp=drive_link)
+![SQL 7](https://github.com/user-attachments/assets/ccab40e4-251c-410c-98bc-5bf3839213b4)
 
 
 ```  SQL
@@ -144,7 +139,7 @@ order by Order_count desc
 
 ```
 
-[SQL 8.jpg](https://drive.google.com/file/d/1MqrQpqTldtR-mq6yqRgzRTnJJ0zaEXtT/view?usp=drive_link)
+![SQL 8](https://github.com/user-attachments/assets/5e3e5acf-d2fb-4fe5-b422-ad04865e586c)
 
 ```  SQL
 select top 1 Customer_Name, sum (Profit) as Total_Profit
@@ -154,7 +149,8 @@ order by Total_Profit
 
 ```
 
-[SQL 9.jpg](https://drive.google.com/file/d/1hOu69-Fc-7CbSWs22gEgAUAjXyuLzj9b/view?usp=drive_link)
+![SQL 9](https://github.com/user-attachments/assets/3bdaa90b-7cfb-4b88-b5b8-bc9209ff5205)
+
 
 ```  SQL
 select C.Customer_Name, C.Customer_Segment
@@ -172,8 +168,8 @@ on C.Order_ID = O.Order_ID
 where (O.Status) = 'Returned'
 
 ```
+![SQL 10](https://github.com/user-attachments/assets/11ba8562-4270-422d-a332-8f52007b0ed0)
 
-[SQL 10.jpg](https://drive.google.com/file/d/1-kcZvY1FWrm2vnPTdAVWNS-mcSTHDdFI/view?usp=drive_link)
 
 ```  SQL
 select 
@@ -185,7 +181,8 @@ group by [Order_Priority], [Ship_Mode]
 order by [Order_Priority], [Ship_Mode] desc
 
 ```
-[SQL 11.jpg](https://drive.google.com/file/d/1yEpN_b4ElHoPnbCUGOh1VzDVCk9GQOS-/view?usp=drive_link)
+
+![SQL 11](https://github.com/user-attachments/assets/9c1ff08e-455c-4694-9161-01483adca4ca)
 
 ## 📉📍 Business Insights
 - Technology is the top selling product with revenue worth in five figures. And the most valuable Customer was Emily phan with an high purchase in Technological Products
